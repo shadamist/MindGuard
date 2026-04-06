@@ -1,49 +1,34 @@
 {
-  "name": "mindguard-frontend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "server_node_express_sequelize",
+  "version": "1.0.0",
+  "description": "service backend using sequelize library",
+  "keywords": [
+    "backend",
+    "express",
+    "sequelize",
+    "capstone",
+    "project"
+  ],
+  "homepage": "https://github.com/Qi-userSh1on/MindGuard_project_Be#readme",
+  "bugs": {
+    "url": "https://github.com/Qi-userSh1on/MindGuard_project_Be/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qi-userSh1on/MindGuard_project_Be.git"
+  },
+  "license": "ISC",
+  "author": "Qianna Vassaputri",
+  "type": "commonjs",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "test": "npm run test"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.2.2",
-<<<<<<< HEAD
     "express": "^5.2.1",
     "mysql2": "^3.20.0",
     "nodemon": "^3.1.14",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
     "sequelize": "^6.37.8",
     "sequelize-cli": "^6.6.5"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@tailwindcss/vite": "^4.2.2",
-=======
-    "lucide-react": "^1.7.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.2",
-    "tailwindcss": "^4.2.2"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.4",
->>>>>>> 85f969738bcd189217e55805194a001f084d5494
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.0",
-    "eslint": "^9.39.4",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.4.0",
-<<<<<<< HEAD
-    "tailwindcss": "^4.2.2",
-=======
->>>>>>> 85f969738bcd189217e55805194a001f084d5494
-    "vite": "^8.0.0"
   }
 }
