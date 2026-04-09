@@ -1,12 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-const reminderController = require("../controllers/reminderController");
+const reminderController = require("../controllers/reminderControllers");
 
-// ambil reminder
 router.get("/", reminderController.getReminders);
-
-// tambah reminder
-router.post("/", reminderController.createReminder);
 
 module.exports = router;
